@@ -37,13 +37,16 @@ h1{
     text-decoration: none;
 
     /* background-color: #FB6756; */
-    background-image: linear-gradient(#FB6756,#FF9672);
+    background-image: linear-gradient(to bottom left, #FB6756,#FF9672);
     color: white;
     font-weight: 700;
     text-transform: uppercase;
     
     padding: 10px 40px ;
     border-radius: 5px;
+}
+.hire_me a:hover{
+    background-image: linear-gradient(to top right, #FB6756,#FF9672);
 }
 
 /* second page */
@@ -52,4 +55,26 @@ h1{
     background-image: url(images/dream-bg.png) ;
     background-repeat: no-repeat;
     background-position: right;
+
+    margin-top: 70px;
+}
+
+.dream_big .half-width img{
+    margin-left: -25px;
+}
+.dream_big .half-width h1{
+    font-size: 45px;
+}
+.dream_big .half-width h3{
+    margin-top: -10px;
+}
+.dream_big .half-width p{
+    
+    text-align: justify;
+    text-justify: inter-word;
+}
+.dream_big .dream_text{
+    padding-top: 4%;
+    padding-left: 8%;
+    width: 37%;
 }
