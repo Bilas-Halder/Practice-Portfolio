@@ -78,3 +78,59 @@ h1{
     padding-left: 8%;
     width: 37%;
 }
+
+
+/* Third Page */
+
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: 190px;
+
+    margin-top: 80px;
+}
+
+
+.flexible{
+    display: flex;
+}
+.experience h2{
+    font-size: 40px;
+    margin-left: 5%;
+}
+
+.flexible h2{
+    font-size: 35px;
+    margin-left: 1%;
+}
+.color_h3{
+    
+    color: #FFA500 ;
+}
+.stack{
+    width: 38.5%;
+    height: 400px;
+    margin-bottom: 100px;
+    margin-left: 5%;
+    background-color: white;
+    padding: 0 2%;
+    box-shadow: 10px 10px 40px grey;
+}
+.full_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(#FF9F79,#FF6347);
+    border-image-slice: 1;
+
+}
+.baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+
+footer p{
+    text-align: center;
+    color: gray;
+}
