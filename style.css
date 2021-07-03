@@ -45,3 +45,11 @@ h1{
     padding: 10px 40px ;
     border-radius: 5px;
 }
+
+/* second page */
+.dream_big{
+    display: flex;
+    background-image: url(images/dream-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: right;
+}
