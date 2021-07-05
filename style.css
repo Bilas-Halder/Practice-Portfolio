@@ -86,7 +86,7 @@ h1{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position-x: left;
-    background-position-y: 190px;
+    background-position-y: 205px;
 
     margin-top: 80px;
 }
@@ -113,8 +113,7 @@ h1{
     height: 400px;
     margin-bottom: 100px;
     margin-left: 5%;
-    background-color: white;
-    padding: 0 2%;
+    padding: 0 2.5%;
     box-shadow: 10px 10px 40px grey;
 }
 .full_stack{
